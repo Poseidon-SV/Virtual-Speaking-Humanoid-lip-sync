@@ -1,3 +1,4 @@
+
 # Virtual Speaking Humanoid (lip-sync)
 
 This tool can convert your written text or given audio file (.wav) to speaking virtual human animation video.
@@ -10,4 +11,4 @@ Run `pip install -r requirements.txt` to install all the necessary packages, the
 
 __Demo:__
 
-<video src="demo/main.py%20-%20virtual_humanoid%20-%20Visual%20Studio%20Code%202023-08-16%2000-38-06.mp4" controls title="Demo"></video>
+https://github.com/Poseidon-SV/Virtual-Speaking-Humanoid-lip-sync/assets/87477923/78c95843-7d8c-4186-88ca-d9f9e9def5e6
