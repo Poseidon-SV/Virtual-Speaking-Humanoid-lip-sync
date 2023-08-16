@@ -1,0 +1,6 @@
+wget==3.2
+colorama==0.4.6
+termcolor==2.3.0
+gTTS==2.3.2
+pydub==0.25.1
+moviepy==1.0.3
