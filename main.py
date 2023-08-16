@@ -21,8 +21,6 @@ ffmpeg_zip = "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip"
 
 if 'temp' not in os.listdir():
     os.mkdir('temp')
-if 'output' not in os.listdir():
-    os.mkdir('output')
 
 ## Rhubarb installer
 rhubarb_exe_link = 'https://github.com/DanielSWolf/rhubarb-lip-sync/releases/download/v1.13.0/Rhubarb-Lip-Sync-1.13.0-Windows.zip'
@@ -83,6 +81,8 @@ def rhubarbRunExe(audio_path):
     return audio_path
 
 def videoProcess(audio_path):
+    if 'output' not in os.listdir():
+        os.mkdir('output')
     audio_path = rhubarbRunExe(audio_path)
     print('')
     try:
